@@ -77,7 +77,7 @@
 
 #Exercises on if statements
 
-#program that asks the user for a number and checks if it is divisible by five.
+#1. program that asks the user for a number and checks if it is divisible by five.
 # num = int(input("Enter number: "))
 # 
 # if num % 5 == 0:
@@ -85,7 +85,7 @@
 # else:
 #     print(f"The number {num} is not divisble by 5.")
     
-# determine if mark of a student is a fail, pass or distinction.
+#2. determine if mark of a student is a fail, pass or distinction.
 # mark = int(input("Please enter mark of student: "))
 # 
 # if mark < 50:
@@ -95,7 +95,7 @@
 # else:
 #     print("Distinction")
  
-# check if they are a child (below 13), a teenager (13-19), or an adult (20+).
+# 3.check if they are a child (below 13), a teenager (13-19), or an adult (20+).
 # user_age = int(input("Please enter your age: "))
 # 
 # if user_age < 13:
@@ -105,7 +105,7 @@
 # else:
 #     print(f"You are an adult {128523:c}")
 
-# Check if a given year is a leap year or not.
+# 4. Check if a given year is a leap year or not.
 # year = int(input("Please enter year: "))
 # 
 # if year % 4 == 0:
@@ -113,26 +113,63 @@
 # else:
 #     print(f"The year {year} is not a leap year.")
  
-# ask for two numbers and print which one is greater, or if they are equal.
-num1 = int(input("Please enter the first number: "))
-num2 = int(input("Please enter the second number: "))
+# 5. ask for two numbers and print which one is greater, or if they are equal.
+# num1 = int(input("Please enter the first number: "))
+# num2 = int(input("Please enter the second number: "))
+# 
+# if num1 > num2:
+#     print(f"{num1} is greater than {num2}.")
+# elif num2 > num1:
+#     print(f"{num2} is greater than {num1}.")
+# elif num1 == num2:
+#     print(f"{num1} is equal to {num2}.")
 
-if num1 > num2:
-    print(f"{num1} is greater than {num2}.")
-elif num2 > num1:
-    print(f"{num2} is greater than {num1}.")
-elif num1 == num2:
-    print(f"{num1} is equal to {num2}.")
+ 
+#6. Ask the user for three numbers and print them ranking from smallest to greatest.
+# num1 = int(input("Please enter the first number: "))
+# num2 = int(input("Please enter the second number: "))
+# num3 = int(input("Please enter the third number: "))
+# 
+# if num1 <= num2 <= num3:
+#     print(f"1. {num1} \n2. {num2} \n3. {num3}")
+# elif num1 <= num3 <= num2:
+#     print(f"1. {num1} \n2. {num3} \n3. {num2}")
+# elif num2 <= num1 <= num3:
+#     print(f"1. {num2} \n2. {num1} \n3. {num3}")
+# elif num2 <= num3 <= num1:
+#     print(f"1. {num2}  \n2. {num3} \n3. {num1}")
+# elif num3 <= num1 <= num2:
+#     print(f"1. {num3}  \n2. {num1} \n3. {num2}")
+# elif num3 <= num2 <= num2:
+#     print(f"1. {num3}  \n2. {num2} \n3. {num1}")
 
+#7. checks if the entered password matches a predefined password.
+# pd_pwd = "leah20"
+# new_pwd = input("Please enter the password: ")
+# 
+# if pd_pwd == new_pwd:
+#     print("This password already exists!")
+# else:
+#     print(f"Your new password is {new_pwd}")
  
- 
- 
- 
- 
- 
- 
- 
- 
+#Exercises combining loops, input and if statements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
  
  
