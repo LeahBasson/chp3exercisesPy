@@ -153,23 +153,83 @@
 #     print(f"Your new password is {new_pwd}")
  
 #Exercises combining loops, input and if statements
+#1. asks the user for 5 numbers and tells them whether each one is even or odd.
 
+for numbers in range(1,6):
+    number = int(input(f"Please enter number {numbers}: "))
+    print(number)
+    if number % 2 == 0:
+        print(f"{number} is an even number.")
+    else:
+        print(f"{number} is an odd number.")
+# num1 = int(input("Please enter the first number: "))
+# if num1 % 2 == 0:
+#     print(f"{num1} is an even number.")
+# else:
+#     print(f"{num1} is an odd number.")
+# 
+# num2 = int(input("Please enter the second number: "))
+# if num2 % 2 == 0:
+#     print(f"{num2} is an even number.")
+# else:
+#     print(f"{num2} is an odd number.")
+# 
+# num3 = int(input("Please enter the third number: "))
+# if num3 % 2 == 0:
+#     print(f"{num3} is an even number.")
+# else:
+#     print(f"{num3} is an odd number.")
+# 
+# num4 = int(input("Please enter the fourth number: "))
+# if num4 % 2 == 0:
+#     print(f"{num4} is an even number.")
+# else:
+#     print(f"{num4} is an odd number.")
+# 
+# num5 = int(input("Please enter the fifth number: "))
+# if num5 % 2 == 0:
+#     print(f"{num5} is an even number.")
+# else:
+#     print(f"{num5} is an odd number.")
 
+#2. ask the user for 5 numbers and calculates the sum of all positive numbers.
+# num1 = int(input("Enter the first number: "))
+# num2 = int(input("Enter the second number: "))
+# num3 = int(input("Enter the third number: "))
+# num4 = int(input("Enter the fourth number: "))
+# num5 = int(input("Enter the fifth number: "))
+# sum_even_numbers = num1 + num2 + num3 + num4 + num5
+# 
+# if num1 % 2 == 0 and num2 % 2 == 0 and num3 % 2 == 0 and num4 % 2 == 0 and num5 % 2 == 0:
+#     print(f"The sum of all even numbers are: {sum_even_numbers}")
+# else:
+#     print("Not all the numbers are even.")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
- 
+#3. Ask the user for 7 numbers and determine which is the largest.
+# num1 = int(input("Enter the first number: "))
+# num2 = int(input("Enter the second number: "))
+# num3 = int(input("Enter the third number: "))
+# num4 = int(input("Enter the fourth number: "))
+# num5 = int(input("Enter the fifth number: "))
+# num6 = int(input("Enter the sixth number: "))
+# num7 = int(input("Enter the seventh number: "))
+# 
+# if num1 >= num2 and num1 >= num3 and num1 >= num4 and num1 >= num5 and num1 >= num6 and num1 >= num7:
+#     print(f"{num1} is the largest number.")
+# elif num2 >= num1 and num2 >= num3 and num2 >= num4 and num2 >= num5 and num2 >= num6 and num2 >= num7:
+#     print(f"{num2} is the largest number.")
+# elif num3 >= num1 and num3 >= num2 and num3 >= num4 and num3 >= num5 and num3 >= num6 and num3 >= num7:
+#     print(f"{num3} is the largest number.")
+# elif num4 >= num1 and num4 >= num2 and num4 >= num3 and num4 >= num5 and num4 >= num6 and num4 >= num7:
+#     print(f"{num4} is the largest number.")
+# elif num5 >= num1 and num5 >= num2 and num5 >= num3 and num5 >= num4 and num5 >= num6 and num5 >= num7:
+#     print(f"{num5} is the largest number.")    
+# elif num6 >= num1 and num6 >= num2 and num6 >= num3 and num6 >= num4 and num6 >= num5 and num6 >= num7:
+#     print(f"{num6} is the largest number.")    
+# elif num7 >= num1 and num7 >= num2 and num7 >= num3 and num7 >= num4 and num7 >= num5 and num7 >= num6:
+#     print(f"{num7} is the largest number.")    
+    
+    
+    
+    
+    
