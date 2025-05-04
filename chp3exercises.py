@@ -154,12 +154,41 @@
  
 #Exercises combining loops, input and if statements
 
+#asks the user for 5 numbers and tells them whether each one is even or odd.
+# for count in range(1,6):
+#     number = int(input(f"Enter number {count}: "))
+#     print(number)
+#     if number % 2 == 0:
+#         print("The number is even")
+#     else:
+#         print("The number is odd")
 
+#asks the user for 5 numbers and calculates the sum of all positive numbers.
+# sum = 0
+# for count in range(1,6):
+#     number = int(input(f"Enter number {count}: "))
+#     print(number)
+#     if number % 2 == 0:
+#         sum += number
+# 
+# print(f"The sum of all the even numbers is {sum}")
+        
+#Ask the user for 7 numbers and determine which is the largest.
+numbers = []
+first_number = int(input("Enter number 1: "))
+largest = first_number
+numbers.append(largest)
+cnt = 2
 
+for number in range(6):
+    number = int(input(f"Enter number {cnt}: "))
+    cnt += 1
+    numbers.append(number)
+    if number > largest:
+        largest = number
 
-
-
-
+print(numbers)
+print(f"{largest} is the largest number.")
 
 
 
